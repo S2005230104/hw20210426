@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="images/1.png" alt="">
+    <p>学生延迟返校申请表</p>
+    <img class="a" src="images/2.png" alt="">
+    <form action="">
+        <label>学生姓名</label><span style="color: red;">*</span>
+        <br>
+        <input type="text" class="span2" placeholder="">
+    </form>
+    <form action="">
+        <label>性别</label><span style="color: red;">*</span><br>
+        <input type="radio" class="aa" name="sex" value="male">男<br>
+        <input type="radio" name="sex" value="female">女
+    </form>
+    <form action="">
+        <label>学号</label><span style="color: red;">*</span>
+        <br>
+        <input type="text" class="span2" placeholder="">
+    </form>
+    <form action="">
+        <label>班级</label><span style="color: red;">*</span><br>
+        <input type="text" class="span2" placeholder="">
+    </form>
+    <form action="">
+        <label>联系方式</label><span style="color: red;">*</span><br>
+        <input type="text" class="span3" placeholder="">
+    </form>
+    <form action="">
+        <label>家长联系方式</label><span style="color: red;">*</span><br>
+        <input type="text" class="span3" placeholder="">
+    </form>
+    <form action="">
+        <label>现居地址</label><span style="color: red;">*</span><br>
+        <select name="cars" class="c">
+            <option value="volvo">请选择省份</option>
+            <option value="saab">福建省</option>
+        </select>
+        <select name="">
+            <option value="volvo">请选择城市</option>
+            <option value="saab">泉州市</option>
+        </select>
+        <select name="">
+            <option value="volvo">请选择区/县</option>
+            <option value="saab">丰泽区</option>
+        </select><br>
+        <TEXTAREA NAME="oContent" class="c"
+ROWS="3" COLS="44" onClick="this.value='';">详细地址</TEXTAREA>
+    </form>
+    <form action="">
+        <label>延迟返校事由</label><span style="color: red;">*</span><br>
+        <input type="radio" class="aa" name="reason">确诊感染新型肺炎，正处于治疗期<br>
+        <input type="radio" name="reason">疑似感染新型肺炎，正处于医学观察期<br>
+        <input type="radio" name="reason">新型肺炎患者密切接触者，正处于居家隔离器<br>
+        <input type="radio" name="reason">其他
+        <input type="text" placeholder="">
+    </form>
+    <form action="">
+        <label>计划返校日期</label><span style="color: red;">*</span>
+        <br>
+        <input type="text" placeholder="">
+    </form>
+    <form action="">
+        <label>证明材料上传(选填)</label>
+        <br>
+        <input type="text" class="span1" placeholder="">
+    </form>
+    <form name="input" action="">
+    <button type="submit" class="btn" value="">提交</button>
+    </form>
+</body>
+</html>

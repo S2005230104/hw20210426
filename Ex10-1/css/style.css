@@ -1,0 +1,47 @@
+body{
+    margin-block: 5px;
+}
+form{
+    margin-left: 27%;
+    margin-block:15px;
+}
+p{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.a{
+    width: 47%;
+}
+.span3{
+    background-image:;
+    width: 30%;
+    margin-top: 15px;
+}
+.aa{
+    margin-top: 15px;
+}
+.span1{
+    width: 65%;
+}
+.btn{
+    background-color: deepskyblue;
+    border: none;
+    width: 85px;
+    height: 30px;
+    
+}
+span{
+    color:white;
+}
+.span2{
+    width: 28%;
+    margin-top: 15px ;
+}
+.c{
+    margin-top: 15px;
+}
+
